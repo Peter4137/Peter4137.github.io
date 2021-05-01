@@ -1,4 +1,5 @@
 import template from 'src/pages/home-page.html';
+import * as ko from 'knockout';
 
 function viewModel() {
     return {
