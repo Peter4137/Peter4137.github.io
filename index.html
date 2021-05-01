@@ -1,9 +1,14 @@
-<head>
-    <script type="text/javascript"></script>
-    <script type="module" src="index.js"></script>
-    <title>Peter Robinson</title>
-</head>
-<body>
-    <div>Test123</div>
-    <div data-bind="text: hello"></div>
-</body>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Peter Robinson</title>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/knockout/3.2.0/knockout-debug.js"></script>
+    </head>
+    <body>
+        <div data-bind="component: {
+                name: 'home-page',
+            }">
+        </div>
+        <script type="module" src="index.js"></script>
+    </body>
+</html>

@@ -1,9 +1,5 @@
-import * as ko from './node_modules/knockout';
+import 'src/pages/home-page';
 
-const ViewModel = function() {
-    return {
-        hello: 'Hello World123'
-    }
-}
+const viewModel={}
 
-ko.applyBindings(new ViewModel());
+ko.applyBindings(viewModel);
