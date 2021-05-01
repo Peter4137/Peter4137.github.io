@@ -2,5 +2,24 @@
   "dependencies": {
     "knockout": "^3.5.1"
   },
-  "type": "module"
+  "scripts": {
+    "start": ""
+  },
+  "type": "module",
+  "name": "peter4137",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Peter4137/Peter4137.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Peter4137/Peter4137.github.io/issues"
+  },
+  "homepage": "https://github.com/Peter4137/Peter4137.github.io#readme",
+  "description": ""
 }
